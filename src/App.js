@@ -1,9 +1,21 @@
-
-
+import Styles from './App.module.css'
+import Header from './Components/Header'
+import Search from './Components/Search'
+import Section1 from './Components/Section1'
+import Footer from './Components/Footer'
 function App() {
   return (
-    <div>
-      
+    <div className={Styles.app}>
+      <div className={Styles.topsection}>
+
+        <div className={Styles.dark_background}>
+          <Header/>  
+          <Search/>
+        </div>
+      </div>
+      <Section1/>
+      <Footer/>
+      <hr/>
     </div>
   );
 }
