@@ -1,6 +1,10 @@
 import Styles from './Footer.module.css'
 import React from 'react'
 import Logo from '../Assets/logo.png'
+import IN from '../Assets/in.png'
+import FB from '../Assets/fb.png'
+import Insta from '../Assets/insta.png'
+import Twi from '../Assets/twi.png'
 function Footer() {
 	return (
 		<div className={Styles.footer_section}>
@@ -11,8 +15,8 @@ function Footer() {
 				</div>
 				<div className={Styles.col2}>
 					<div className={Styles.company}>
-						<ul>
-							<p className={Styles.footer1_header}>COMPANY</p>
+						<ul className={Styles.ul}>
+							<p className={Styles.footer_header}>COMPANY</p>
 							<li>About Us</li>
 							<li>For Companies</li>
 							<li>For Property Owners</li>
@@ -22,7 +26,7 @@ function Footer() {
 						</ul>
 					</div>
 					<div>
-						<p className={Styles.footer1_header}>CONTACT</p>
+						<p className={Styles.footer_header}>CONTACT</p>
 						<div>
 							<div>1777, Sector 45</div>
 							<div>Gurgaon India 122002</div>
@@ -32,18 +36,30 @@ function Footer() {
 					</div>
 				</div>
 				<div>
-					<p className={Styles.footer1_header}>Follow Us</p>
+					<p className={Styles.footer_header}>Follow Us</p>
 					<div className={Styles.follow}>
-						<div>fb</div>
-						<div>Tw</div>
-						<div>ins</div>
-						<div>lin</div>
+						<div><img src={IN} alt=""/></div>
+						<div><img src={FB} alt=""/></div>
+						<div><img src={Twi} alt=""/></div>
+						<div><img src={Insta} alt=""/></div>
 					</div>
 				</div>		
 			</div>
-			<hr/>
-			<div className={Styles.section2}>
-
+			<div className={Styles.footer2}>
+				<p className={Styles.footer_header}>Popular Searches</p>
+				<div style={{display:'flex'}}>
+				<ul className={Styles.ul}>
+					<li>Serviced Apartments in Gurgaon</li>
+					<li>Serviced Apartments in Delhi</li>
+					<li>Serviced Apartments in Chennai</li>
+					<li>Serviced Apartments in Manesar</li>
+					<li>Serviced Apartments in Neemrana</li>
+					<li>Serviced Apartments in Bangalore</li>
+				</ul>
+				</div>
+			</div>
+			<div className={Styles.copyright}>
+				© 2020 Relocatte, All Rights Reserved.
 			</div>
 		</div>
 	)

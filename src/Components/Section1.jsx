@@ -18,21 +18,21 @@ function Section1() {
 				<img src={Img2} alt=""/>
 				<div className={Styles.element_body}>
 					<div>Relocation Solution</div>
-					<div className={Styles.element_for}>For Expats</div>
+					<div className={Styles.element_for}>For Companies</div>
 				</div>
 			</div>
 			<div className={Styles.element} style={{background:'#D8C4B5'}}>
 				<img src={Img3} alt=""/>
 				<div className={Styles.element_body}>
 					<div>Relocation Solution</div>
-					<div className={Styles.element_for}>For Expats</div>
+					<div className={Styles.element_for}>For Individuals</div>
 				</div>
 			</div>
 			<div className={Styles.element} style={{background:'#F0A645'}}>
 				<img src={Img4} alt=""/>
 				<div className={Styles.element_body}>
 					<div>Relocation Solution</div>
-					<div className={Styles.element_for}>For Expats</div>
+					<div className={Styles.element_for}>For Property Owners</div>
 				</div>
 			</div>
 		</div>
