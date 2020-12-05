@@ -18,7 +18,8 @@
 }
 
 .header_sticky{
-	padding: 15px 80px;
+	text-align: left;
+	padding: 15px 20px;
 	background-color:white;
 	position: fixed;
 	color: black;
