@@ -90,4 +90,7 @@
 	.bottom_nav{
 		display: none;
 	}
+	.header_sticky{
+		padding: 15px 80px;
+	}
 }
